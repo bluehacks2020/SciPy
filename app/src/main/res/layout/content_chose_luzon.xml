@@ -1,0 +1,191 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.core.widget.NestedScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    app:layout_behavior="@string/appbar_scrolling_view_behavior"
+    tools:context=".choseLuzon"
+    tools:showIn="@layout/activity_chose_luzon">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:baselineAligned="false"
+        android:orientation="vertical">
+
+        <FrameLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <ImageView
+                android:id="@+id/imageView4"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                app:srcCompat="@drawable/ilocos_banner" />
+
+            <TextView
+                android:id="@+id/ilocosText"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:text="Ilocos Region"
+                android:textAlignment="center"
+                android:textColor="#FFFFFF"
+                android:textSize="30sp" />
+        </FrameLayout>
+
+        <FrameLayout
+            android:layout_width="match_parent"
+            android:layout_height="79dp">
+
+            <ImageView
+                android:id="@+id/imageView5"
+                android:layout_width="423dp"
+                android:layout_height="144dp"
+                android:layout_gravity="center"
+                app:srcCompat="@drawable/cagayan_banner" />
+
+            <TextView
+                android:id="@+id/textView6"
+                android:layout_width="match_parent"
+                android:layout_height="47dp"
+                android:layout_gravity="center"
+                android:text="Cagayan Valley"
+                android:textAlignment="center"
+                android:textColor="#FFFFFF"
+                android:textSize="30sp" />
+        </FrameLayout>
+
+        <FrameLayout
+            android:layout_width="match_parent"
+            android:layout_height="86dp">
+
+            <ImageView
+                android:id="@+id/imageView6"
+                android:layout_width="410dp"
+                android:layout_height="127dp"
+                app:srcCompat="@drawable/cordillera_banner" />
+
+            <TextView
+                android:id="@+id/textView7"
+                android:layout_width="match_parent"
+                android:layout_height="86dp"
+                android:layout_gravity="center"
+                android:gravity="center"
+                android:text="Cordillera Administrative Region"
+                android:textColor="#FFFFFF"
+                android:textSize="30sp" />
+        </FrameLayout>
+
+        <FrameLayout
+            android:layout_width="match_parent"
+            android:layout_height="104dp">
+
+            <ImageView
+                android:id="@+id/imageView7"
+                android:layout_width="444dp"
+                android:layout_height="272dp"
+                android:layout_gravity="center_vertical"
+                app:srcCompat="@drawable/centralluzon_banner" />
+
+            <TextView
+                android:id="@+id/centralLuzonText"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_vertical"
+                android:gravity="center"
+                android:text="Central Luzon"
+                android:textColor="#FFFFFF"
+                android:textSize="30sp" />
+        </FrameLayout>
+
+        <FrameLayout
+            android:layout_width="match_parent"
+            android:layout_height="88dp">
+
+            <ImageView
+                android:id="@+id/imageView8"
+                android:layout_width="445dp"
+                android:layout_height="141dp"
+                android:layout_gravity="center"
+                app:srcCompat="@drawable/intramuros_banner" />
+
+            <TextView
+                android:id="@+id/textView9"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:gravity="center"
+                android:text="National Capital Region"
+                android:textColor="#FFFFFF"
+                android:textSize="30sp" />
+        </FrameLayout>
+
+        <FrameLayout
+            android:layout_width="match_parent"
+            android:layout_height="88dp">
+
+            <ImageView
+                android:id="@+id/imageView9"
+                android:layout_width="wrap_content"
+                android:layout_height="139dp"
+                app:srcCompat="@drawable/calabarzon_banner" />
+
+            <TextView
+                android:id="@+id/calabarzon"
+                android:layout_width="411dp"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:gravity="center"
+                android:text="Calabarzon"
+                android:textColor="#FFFFFF"
+                android:textSize="30sp" />
+        </FrameLayout>
+
+        <FrameLayout
+            android:layout_width="match_parent"
+            android:layout_height="87dp" >
+
+            <ImageView
+                android:id="@+id/imageView11"
+                android:layout_width="match_parent"
+                android:layout_height="171dp"
+                android:layout_gravity="center"
+                app:srcCompat="@drawable/mimaropa_banner" />
+
+            <TextView
+                android:id="@+id/textView11"
+                android:layout_width="match_parent"
+                android:layout_height="35dp"
+                android:layout_gravity="center"
+                android:gravity="center"
+                android:text="Mimaropa"
+                android:textColor="#FFFFFF"
+                android:textSize="30sp" />
+        </FrameLayout>
+
+        <FrameLayout
+            android:layout_width="match_parent"
+            android:layout_height="153dp">
+
+            <ImageView
+                android:id="@+id/imageView12"
+                android:layout_width="490dp"
+                android:layout_height="198dp"
+                android:layout_gravity="center"
+                app:srcCompat="@drawable/bicol_banner" />
+
+            <TextView
+                android:id="@+id/textView12"
+                android:layout_width="match_parent"
+                android:layout_height="45dp"
+                android:layout_gravity="center"
+                android:gravity="center"
+                android:text="Bicol Region"
+                android:textColor="#FFFFFF"
+                android:textSize="30sp" />
+        </FrameLayout>
+
+    </LinearLayout>
+</androidx.core.widget.NestedScrollView>
