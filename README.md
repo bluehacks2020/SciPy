@@ -1,3 +1,4 @@
+Luto - A guide to Authentic Philippine cuisine
 Team Name and Members
 Team SciPy
 
@@ -6,12 +7,11 @@ Karl Richmond Taguibao
 Mark Austin Pagarigan
 Mark Christian Ang
 
-Application Description
-With Luto, you can find a collection of Philippine Food from different parts of the country while learning some history behind such dishes.
+About Luto
+Luto is a cookbook app that mainly focuses not only on the recipes in its resources but also in the geography and history behind the authenitc foods found throughout the Philippines. What makes it different from outher cookbook applications is its basis on Philippine culture, allowing a wide variety of selections to choose from, ranging from Philippine street food all the way to preserved indigenous dishes.It makes emphasis to let the user know where a dish originated based on historical data and gives a piece of history revolving around the dish.
 
-Installation Guide
+Installation Guide: git clone https://github.com/bluehacks2020/SciPy.git
+
+App Guidelines: Languages Used: Kotlin, Java, Android Studio
 
 
-App Guidelines (guidelines include the languages, frameworks, libraries, etc. that were used in making the app)
-
-- Citations or References
